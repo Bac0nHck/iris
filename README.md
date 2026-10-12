@@ -19,10 +19,10 @@ This is a modified distribution of Iris. It runs inside a Roblox client with an 
 
 ## Quick start
 
-Upload these files to your repository. Open `Iris.luau`, select **Raw**, and copy the URL. Replace `YOUR_RAW_IRIS_URL` below with that URL. A typical URL is `https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPOSITORY/main/Iris.luau`.
+Upload these files to your repository. Open `Iris.luau`, select **Raw**, and copy the URL. Replace `https://raw.githubusercontent.com/Bac0nHck/iris/refs/heads/main/Iris.luau` below with that URL. A typical URL is `https://raw.githubusercontent.com/Bac0nHck/iris/refs/heads/main/Iris.luau`.
 
 ```lua
-local Iris = loadstring(game:HttpGet("YOUR_RAW_IRIS_URL"))()
+local Iris = loadstring(game:HttpGet("https://raw.githubusercontent.com/Bac0nHck/iris/refs/heads/main/Iris.luau"))()
 
 local enabled = Iris.State(false)
 local selected = Iris.State("First")
